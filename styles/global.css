@@ -2,12 +2,8 @@
 *::before, 
 *::after {
     box-sizing: border-box;
-<<<<<<< HEAD
 }
 *{
-=======
-} *{
->>>>>>> 4391c1234f5a6bf9af9d42995cc717d01cb4a5b5
     background-color: var(--background-color);
     margin: 0;
     padding: 0;
