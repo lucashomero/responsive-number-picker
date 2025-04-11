@@ -36,7 +36,7 @@
     /* gradient */
 
     --gradient-border: linear-gradient(90deg, #77C0AF 0%, #D1DC97 14.84%, #E9A9B3 32.15%, #D586E0 65.79%, #91A1FA 84.58%);
-    --gradient-background: linear-gradient(180deg, #D586E0 0%, #91A1FA 98.93%);
+    --gradient-background: linear-gradient(90deg, #D586E0 0%, #91A1FA 98.93%);
     --gradient-content: linear-gradient(180deg, #C7C9CC 0%, #3D3D3D 100%);
       
     --ff-sora: 'Sora', system-ui, sans-serif; 
@@ -56,7 +56,7 @@
     --label-medium: 700 20px/150% var(--font-family, 'Roboto Flex'), sans-serif;
     --label-small: 700 16px/150% var(--font-family, 'Roboto Flex'), sans-serif;
     
-    --px-small:0.5rem;
+    --px-sm:0.5rem;
     --px-base:1rem;
     --px-lg:1.5rem;
 

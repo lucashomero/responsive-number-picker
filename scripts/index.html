@@ -36,13 +36,13 @@
                 <h1>SORTEADOR DE NÚMEROS</h1>
                 <div class="flex-column">
                     <img id="userIcon" class="margin-top-2.5" src="/assets/icons/UserIcon.svg" alt="UserIcon">
-                    <p class="p-medium margin-top-2.5 px-small">Como funciona o sorteador de números?</p>
+                    <p class="p-medium margin-top-2.5 px-sm">Como funciona o sorteador de números?</p>
                 </div>
                 <p class="p-small margin-top-0.5">O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</p>
 
                 <div class="flex-column">
                     <img id="userIcon" class="margin-top-2.5" src="/assets/icons/UserIcon.svg" alt="UserIcon">
-                    <p class="p-medium margin-top-2.5 px-small">Posso escolher o intervalo dos números?</p>
+                    <p class="p-medium margin-top-2.5 px-sm">Posso escolher o intervalo dos números?</p>
                 </div>
                 <p class="p-small margin-top-0.5">Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
             </div>
@@ -55,7 +55,8 @@
                </div>
 
                <div class="even-columns-number py-xl">
-                <!-- GRID DE SPAN E NUMEROS -->
+
+                <!-- INPUT DE NUMEROS -->
                 <div class="item">
                   <span class="label-medium">NÚMEROS</span>
                   <input class="input-card-number" type="text" id="numberCard1" />
@@ -70,12 +71,22 @@
                 </div>
               </div>
 
-              <div>
-
-                <p>Não repetir numero</p>
+              <!-- Toggle Button (Dont Repeat) -->
+              <div class="dontRepeatDiv" id="dontRepeat">
+                <label class="toggle-switch">
+                  <input type="checkbox" class="toggle-input"/>
+                  <span class="toggle-slider"></span>
+                </label>
+                <p class="px-sm">Não repetir número</p>
               </div>
 
+              <!-- <div class="container py-lg">
+                <p>numero sorteado</p>
+              </div> -->
+              
+
             </div>
+
         </section>
     </main>
 
