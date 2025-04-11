@@ -3,8 +3,9 @@
 *::after {
     box-sizing: border-box;
 }
+
 *{
-    background-color: var(--background-color);
+    background-color: var(--background-primary);
     margin: 0;
     padding: 0;
     font: inherit;
@@ -55,10 +56,65 @@
     --label-medium: 700 20px/150% var(--font-family, 'Roboto Flex'), sans-serif;
     --label-small: 700 16px/150% var(--font-family, 'Roboto Flex'), sans-serif;
     
-    
+    --px-small:0.5rem;
+    --px-base:1rem;
+    --px-lg:1.5rem;
 
-    
-    
+    --py-base:1rem;
+    --py-lg:1.5rem;
+    --py-xl:3rem;
+    --py-2xl:6rem;
+}
 
+/* html {
+    font: var(--display-large);
+    color: var(--content-primary);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+} */
 
+body {
+    overflow-x: hidden;
+}
+
+#h1-logo {
+    font: var(--display-small);
+    color: var(--content-primary);
+    /* text-transform: uppercase; */
+}
+
+p{
+    font: var(--paragraph-medium);
+    color: var(--content-primary);
+}
+
+h1 {
+    font: var(--display-medium);
+    color: var(--content-primary);
+    width: 20rem;
+}
+
+h2 {
+    font: var(--label-medium);
+    color: var(--content-primary);
+}
+
+.p-medium {
+    font: var(--paragraph-medium);
+    color: var(--content-brand);
+}
+
+.p-small{
+    font: var(--paragraph-small);
+    color: var(--content-secondary);
+}
+
+.label-medium {
+    font: var(--label-medium);
+    color: var(--content-secondary);
+}
+
+#userIcon{
+    width: 20px;
+    height: 20px;
 }

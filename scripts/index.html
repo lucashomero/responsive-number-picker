@@ -21,6 +21,63 @@
 
 <body>
     
+    <header>
+        <div class="logo container flex py-2xl px-lg justify-start gap-1">
+            <img src="/assets/icons/Logo.svg" alt="Logo Marca">
+            <h1 id="h1-logo">NUMBERS</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="body" class="container even-columns">
+
+            <!-- CONTAINER SORTEADOR DE NUMEROS -->
+            <div class="container-main py-lg px-lg justify-start gap-1">
+                <h1>SORTEADOR DE NÚMEROS</h1>
+                <div class="flex-column">
+                    <img id="userIcon" class="margin-top-2.5" src="/assets/icons/UserIcon.svg" alt="UserIcon">
+                    <p class="p-medium margin-top-2.5 px-small">Como funciona o sorteador de números?</p>
+                </div>
+                <p class="p-small margin-top-0.5">O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</p>
+
+                <div class="flex-column">
+                    <img id="userIcon" class="margin-top-2.5" src="/assets/icons/UserIcon.svg" alt="UserIcon">
+                    <p class="p-medium margin-top-2.5 px-small">Posso escolher o intervalo dos números?</p>
+                </div>
+                <p class="p-small margin-top-0.5">Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
+            </div>
+
+            <!-- CONTAINER QUERO SORTEAR -->
+            <div class="container-main py-lg px-lg justify-start">
+               <div>
+                <h2>QUERO SORTEAR:</h2>
+                <p class="p-medium margin-top-1" style="color: var(--content-secondary);">Defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!</p>
+               </div>
+
+               <div class="even-columns-number py-xl">
+                <!-- GRID DE SPAN E NUMEROS -->
+                <div class="item">
+                  <span class="label-medium">NÚMEROS</span>
+                  <input class="input-card-number" type="text" id="numberCard1" />
+                </div>
+                <div class="item">
+                  <span class="label-medium">DE</span>
+                  <input class="input-card-number" type="text" id="numberCard2" />
+                </div>
+                <div class="item">
+                  <span class="label-medium">DE</span>
+                  <input class="input-card-number" type="text" id="numberCard3" />
+                </div>
+              </div>
+
+              <div>
+
+                <p>Não repetir numero</p>
+              </div>
+
+            </div>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
