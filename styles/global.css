@@ -2,8 +2,12 @@
 *::before, 
 *::after {
     box-sizing: border-box;
+<<<<<<< HEAD
 }
 *{
+=======
+} *{
+>>>>>>> 4391c1234f5a6bf9af9d42995cc717d01cb4a5b5
     background-color: var(--background-color);
     margin: 0;
     padding: 0;
@@ -11,4 +15,54 @@
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    /* background */
+    --background-primary: #020202;
+    --background-secondary: #111012;
+    --background-tertiary: #24222E;
+    --background-brand: #C58DE7;
+    --background-gray: #3D3D3D;
+    /* content */
+    --content-primary: #FFFFFF;
+    --content-secondary: #C7C9CC;
+    --content-tertiary: #D9D9D9;
+    --content-brand: #C58DE7;
+    --color-inverse: #030203;
+    /* accent */
+    --accent-pink: #D586E0;
+    --accent-blue: #91A1FA;
+    --accent-green: #77C0A;
+    --accent-lime: #D1DC97;
+    --accent-red: #E9A9B3;
+    /* gradient */
+
+    --gradient-border: linear-gradient(90deg, #77C0AF 0%, #D1DC97 14.84%, #E9A9B3 32.15%, #D586E0 65.79%, #91A1FA 84.58%);
+    --gradient-background: linear-gradient(180deg, #D586E0 0%, #91A1FA 98.93%);
+    --gradient-content: linear-gradient(180deg, #C7C9CC 0%, #3D3D3D 100%);
+      
+    --ff-sora: 'Sora', system-ui, sans-serif; 
+    --fw-base: 400;
+    --fw-md: 500;
+    --fw-bold: 800;
+
+    --display-small: 700 32px/130% var(--font-family, 'Sora'), sans-serif;
+    --display-medium: 800 40px/130% var(--font-family, 'Sora'), sans-serif;;
+    --display-large: 800 72px/130% var(--font-family, 'Sora'), sans-serif; 
+
+    --overline: 700 16px/150% var(--font-family, 'Roboto Mono'), sans-serif;
+
+    --paragraph-large: 500 16px/150% var(--font-family, 'Roboto Flex'), sans-serif;
+    --paragraph-medium: 500 14px/150% var(--font-family, 'Roboto Flex'), sans-serif;
+    --paragraph-small: 500 12px/150% var(--font-family, 'Roboto Flex'), sans-serif;
+    --label-medium: 700 20px/150% var(--font-family, 'Roboto Flex'), sans-serif;
+    --label-small: 700 16px/150% var(--font-family, 'Roboto Flex'), sans-serif;
+    
+    
+
+    
+    
+
+
 }
