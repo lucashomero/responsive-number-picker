@@ -39,9 +39,16 @@
     max-width: 31.75rem;
     width: 31.75rem;
     height: 25.75rem;
+    /* overflow: hidden; */
     box-sizing: border-box;
     /* background-color: aliceblue; */
 }
+
+.container-main h1 {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+  }
 
 .container {
     margin: auto;
@@ -154,6 +161,7 @@
   }
 
   .dontRepeatDiv {
+    margin-left:5px;
     display: flex;
     align-items: center;
     gap: 0.5rem;
